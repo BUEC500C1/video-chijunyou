@@ -33,10 +33,10 @@ jobs:
         flake8 . --count --exit-zero --max-complexity=10 --max-line-length=127 --statistics
     - name: Test with pytest
       run: |
-        pip install ffmpeg
-        pip install wheel
-        add-apt-repository ppa:mc3man/trusty-media
-        apt-get update
-        apt-get install ffmpeg
-        pip install wheel
+        sudo -i pip install ffmpeg
+        sudo -i pip install wheel
+        sudo -i add-apt-repository ppa:mc3man/trusty-media
+        sudo -i apt-get update
+        sudo -i apt-get install ffmpeg
+        sudo -i pip install wheel
         pytest
