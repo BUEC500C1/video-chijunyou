@@ -34,4 +34,7 @@ jobs:
     - name: Test with pytest
       run: |
         pip install ffmpeg
+        add-apt-repository ppa:mc3man/trusty-media
+        apt-get update
+        apt-get install ffmpeg
         pytest
