@@ -6,9 +6,13 @@ An api to get tweet online and convert to video to show the twitter posts
 tweepy: Used to gether twitter posts
 
 # functions
+
 gettweets: get twitter post online
+
 Queue: to hold the queue for convertion
+
 getkeys: read key file to extract key
+
 makeImages: convert text to video
 
 # install
