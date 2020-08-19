@@ -22,14 +22,15 @@ makeImages: convert text to video
 First run conda "install -r requirements.txt"
 then type your tweeter key into keys file
 
-run python hw4 to test
+# Run
+run 'python Queue.py' to test the whole system. There are hardcoded keywords in Queue.py and you can change the keywords the the number of threads
 
 or 
 
 Import word2vid from hw4
-and use word2vid(keyword)
+and use word2vid(keyword) to use the word2vid part directly.
 
 
 # result
 I tested on my own computer and for test case in pytest file, I gave the videos in the file I uploaded. However, When I tested on github, the ffmpeg file cannot be installed due to the authority problems. This is the test result and videos are in project forder.
-![Image text](https://raw.githubusercontent.com/BUEC500C1/twitter-summarizer-rest-service-chijunyou/master/result.png)
+https://github.com/BUEC500C1/video-chijunyou/blob/master/result2.png
