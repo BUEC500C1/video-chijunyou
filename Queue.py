@@ -35,12 +35,12 @@ def worker():
   while True:
     item = q.get()
     if item is None:
-      print("Break ! cuz item is None")
+      print("break nothing in item")
       break
     api = word2vid_task(item)
     api.run()
     i += 1
-    print("-----Task{0}----".format(i))
+    print("-----Task Number{0}----".format(i))
     q.task_done()
 
 q = queue.Queue()
