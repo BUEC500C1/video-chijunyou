@@ -2,6 +2,9 @@
 # Description
 An api to get tweet online and convert to video to show the twitter posts
 
+# Something new
+I found that the queue system in old version is just a loop for tasks so I developed a new version for queue system and it should be fine. I uploaded the picture of running result for it.
+
 # api used
 tweepy: Used to gether twitter posts
 
